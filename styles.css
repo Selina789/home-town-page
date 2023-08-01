@@ -12,8 +12,7 @@ body{
 .header-1{
   margin: 0;
   background-image: url("images/images.jpg");
-  height: 540px;
-  background-position-y: -140cm;
+  height: 500px;
   background-size: cover;
   text-align: center;
   vertical-align: middle;
@@ -87,12 +86,12 @@ h3{
 
 /* header 3 */
 .header-3{
-  margin-top: 80px;
   align-items: center;
   width: 600px;
   height: 380px;
   position: relative;
-  left: 30%;
+  margin: auto;
+  padding-top: 50px;
 }
 .card-box{
   display: flex;
