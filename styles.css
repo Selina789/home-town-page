@@ -1,0 +1,126 @@
+html{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* header 1 */
+
+.header-1{
+  margin: 0;
+  background-image: url("images/images.jpg");
+  height: 540px;
+  background-position-y: -140cm;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-text{
+  margin-top: 140px;
+}
+
+h1,
+h2{
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
+  color: white;
+}
+
+h1{
+  font-size: 40px;
+  background-color: rgb(255, 212, 21);
+  width: 320px;
+  display: inline-block;
+}
+
+h2{
+  margin: 0;
+  background-color: hsl(34, 100%, 56%);
+  width: 550px;
+}
+
+/* header 2 */
+.header-2{
+  text-align: center;
+  align-items: center;
+  background-color: rgb(243, 241, 241);
+}
+
+h3{
+  font-size: 30px;
+  padding: 40px 0 100px 0;
+  margin: 0;
+}
+
+.h2-bottom-layout{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+
+.trailer-pic{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.trailer-title{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.trailer-desc{
+  font-size: 22px;
+  width: 200px;
+}
+
+/* header 3 */
+.header-3{
+  margin-top: 80px;
+  align-items: center;
+  width: 600px;
+  height: 380px;
+  position: relative;
+  left: 30%;
+}
+.card-box{
+  display: flex;
+  flex-direction: row;
+  border: 3px solid rgb(130,211,255);
+  background-color: rgb(115, 211, 255);
+  border-radius: 15px;
+  box-shadow: 6px 7px rgb(2, 134, 196);
+}
+.cat-pfp{
+  padding: 20px 20px 15px 20px;
+  width: 180px;
+  height: 290px;
+}
+
+.card-right{
+  padding: 30px 20px 15px 20px;
+  text-align: center;
+}
+
+.guide-name{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.guide-thoughts,
+.final-guide{
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 20px;
+}
