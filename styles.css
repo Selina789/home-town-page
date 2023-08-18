@@ -66,15 +66,20 @@ h3{
 .h2-left,
 .h2-mid,
 .h2-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
   margin: auto;
+  margin-bottom: 20px;
 }
-
 
 .trailer-pic{
   width: 150px;
   height: 150px;
   border-radius: 100%;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 .trailer-title{
@@ -84,7 +89,8 @@ h3{
 
 .trailer-desc{
   font-size: 22px;
-  width: 200px;
+  width: 50%;
+  margin: auto;
 }
 
 /* header 3 */
